@@ -53,4 +53,4 @@ def predict_api(text):
     return jsonify(response)
 
 
-app.run(port=5000,   debug=True)
+app.run(port=5555,   debug=True)
