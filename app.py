@@ -3,8 +3,8 @@ import pickle
 import numpy as np
 
 
-model_filename = "../Pickle_SVM_Model.pkl"
-vectorizer_filename = '../Pickle_vectorizer.pkl'
+model_filename = "Pickle_SVM_Model.pkl"
+vectorizer_filename = 'Pickle_vectorizer.pkl'
 with open(model_filename, 'rb') as file:
     model = pickle.load(file)
 
